@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajnish Kumar Yadav - Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/main.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">RK</span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span><span class="bar"></span
+          ><span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <canvas id="hero-canvas" class="hero-canvas"></canvas>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="title-line">Hi, I'm</span>
+            <span class="title-line hero-name">Rajnish Kumar Yadav</span>
+          </h1>
+          <p class="hero-subtitle">
+            Software Engineer | Web & Blockchain Developer
+          </p>
+          <p class="hero-description">
+            Passionate full-stack developer with expertise in building immersive
+            web experiences and a strong foundation in computer science.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator"><div class="scroll-arrow"></div></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-intro">
+              I'm a Computer Science Engineering student at VIT Chennai with a
+              CGPA of 8.85, passionate about Web Development, Blockchain, and
+              innovative digital solutions.
+            </p>
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h3>Technologies</h3>
+                <div class="skill-tags">
+                  <span class="skill-tag">C++</span>
+                  <span class="skill-tag">C</span>
+                  <span class="skill-tag">Java</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">Solidity</span>
+                  <span class="skill-tag">React.js</span>
+                  <span class="skill-tag">Node.js</span>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h3>Experience</h3>
+                <p>
+                  Management Team, DAO Community VIT (Jun. 2024 – Present)<br />
+                  • Conducted an interactive session on Work in Web3.
+                </p>
+              </div>
+              <div class="skill-category">
+                <h3>Certifications</h3>
+                <p>
+                  Mastering Data Structures & Algorithms using C and C++ – Udemy
+                  (Mar. 9, 2025)
+                </p>
+                <p>IBM Blockchain Developer – IBM</p>
+              </div>
+              <div class="skill-category">
+                <h3>Education</h3>
+                <p>B.Tech CSE, VIT Chennai – CGPA: 8.85 (Expected Jul. 2027)</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <canvas id="about-canvas" class="about-canvas"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">
+                DocHive – A Web Platform for Doctor-Patient Interaction
+              </h3>
+              <p class="project-description">
+                DocHive is a fully responsive web platform that I designed and
+                developed to simplify communication and interaction between
+                doctors and patients. The platform enables doctors to manage
+                appointments, view patient details, and provide updates, while
+                patients can easily schedule consultations and receive
+                notifications. I implemented a clean UI/UX to ensure a smooth
+                user experience and integrated form validation, state
+                management, and modular components for maintainability. The
+                entire front-end was built HTML, CSS, JavaScript, and React,
+                with reusable components and optimized rendering for
+                performance.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span
+                ><span class="tech-tag">CSS</span
+                ><span class="tech-tag">JavaScript</span
+                ><span class="tech-tag">React</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Task Manager</h3>
+              <p class="project-description">
+                Task Manager is a lightweight command-line tool that I developed
+                in C. The program not only lists all currently running processes
+                on the system and allows users to terminate specific tasks by
+                entering their Process IDs (PIDs), but it also includes an
+                additional feature to schedule process termination based on a
+                user-defined timer. This project strengthened my understanding
+                of low-level programming, memory management, and OS-level
+                process control while optimizing for performance. The
+                application works seamlessly on Linux-based systems.
+              </p>
+              <div class="project-tech"><span class="tech-tag">C</span></div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Blitz-dev-cloud/terminator-task-manager"
+                  target="_blank"
+                  class="project-link"
+                  >GitHub Repository</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Let's Work Together</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-icon">📧</div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <a href="mailto:rajnishkryadav10@gmail.com"
+                    >rajnishkryadav10@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-icon">📞</div>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <span>7379554981</span>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-icon">💼</div>
+                <div class="contact-details">
+                  <h4>LinkedIn</h4>
+                  <a
+                    href="https://www.linkedin.com/in/rajnish-kumar-yadav-22001b28b/"
+                    target="_blank"
+                    >linkedin.com/in/rajnish-kumar-yadav</a
+                  >
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-icon">🐙</div>
+                <div class="contact-details">
+                  <h4>GitHub</h4>
+                  <a href="https://github.com/Rajnish-y" target="_blank"
+                    >github.com/Rajnish-y</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required /><label
+                for="name"
+                >Your Name</label
+              >
+              <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required /><label
+                for="email"
+                >Your Email</label
+              >
+              <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" required /><label
+                for="subject"
+                >Subject</label
+              >
+              <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" rows="5" required></textarea
+              ><label for="message">Your Message</label>
+              <div class="form-line"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
